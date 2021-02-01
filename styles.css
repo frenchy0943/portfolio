@@ -1,0 +1,40 @@
+body {background-color: 
+    black;
+}
+.main-container {background-color: rgb(39, 39, 39);
+                margin-left: 20%;
+                margin-right: 20%;
+                margin-top: 3%;
+                height: 100%;
+}
+.picture {width: 200;
+        height: 150s;
+        margin-left: 20px;
+        margin-top: 20px;
+        background-color: teal;
+}
+.header {
+    display: flex;
+}
+.bio{
+    color: rgb(100, 100, 100);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.name-title{
+    margin-left: 40px;
+}
+.name{
+    color: white;
+}
+.title{
+    color: teal;
+}
+.list1{
+    color: white;
+    margin-left: 150px;
+}
+.list2{
+    list-style-type: none;
+    color: rgb(100, 100, 100);
+}
