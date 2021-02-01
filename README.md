@@ -1,2 +1,2 @@
 # Online Portfolio HTML page
-* An online version of my resume
+* An HTML representation of my resume
