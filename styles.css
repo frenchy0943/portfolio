@@ -13,7 +13,7 @@ body {background-color:
         margin-top: 20px;
         background-color: teal;
 }
-.header {
+.section {
     display: flex;
 }
 .bio{
@@ -36,5 +36,31 @@ body {background-color:
 }
 .list2{
     list-style-type: none;
+    color: rgb(100, 100, 100);
+}
+
+.experienceSkills{
+    display: flex;
+}
+
+#experience{
+    width: 50%;
+}
+
+#experienceTitle{
+    background-color: rgb(100, 100, 100); 
+    color: whitesmoke;
+}
+
+#skills{
+    margin-left: 5%;
+    width: 50%;
+}
+
+#skillsTitle{
+    color: teal;
+}
+
+p, h4{
     color: rgb(100, 100, 100);
 }
