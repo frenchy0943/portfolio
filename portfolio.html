@@ -4,34 +4,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://kit.fontawesome.com/c356aa268b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="main-container">
         
         <div class="section">
             <div>
-                <img class="picture" src="picture.jpg" alt="my picture"/>
+                <img id="imageMediaQuery" class="picture" src="picture.jpg" alt="my picture"/>
             </div>
             <div class="name-title">
                 <div class="name"><h1>Brandon French</h1></div>
                 <div class="title"><h3>Developer</h3></div>
             </div>
-            <div>
-                <ul class="list1">
-                    <li><h4>Name:</h4></li>
-                    <li><h4>Address:</h4></li>
-                    <li><h4>Phone:</h4></li>
-                    <li><h4>Email:</h4></li>
-                    <li><h4>Website:</h4></li>
-                </ul>
-            </div>
-            <div>
-                <ul class="list2">
-                    <li><h4>French Brandon</h4></li>
-                    <li><h4>Arden Hills, Minnesota</h4></li>
-                    <li><h4>303-941-4765</h4></li>
-                    <li><h4>brandon@thefrenchfamily.com</h4></li>
-                    <li><a href="#"><h4>Website</h4></a></li>
+            <div id="list1">
+                <ul>
+                    <li><h4>Address: City, State</h4></li>
+                    <li><h4>Phone: 555-555-5555</h4></li>
+                    <li><h4>Email: name@domain.com</h4></li>
+                    <li><h4>Website: <a href="#">Website</a></h4></li>
                 </ul>
             </div>
         </div>
@@ -44,31 +36,84 @@
             <!-- Empoyment and Experience box -->
             <div id="experience">
                 <div>
-                    <div id="experienceTitle"><h1>Employment</h1></div>
+                    <div id="experienceTitle"><h1><i class="fas fa-chevron-down"></i>Employment</h1></div>
                     <p><h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue convallis aliquet. Donec vulputate dui a risus semper, et sollicitudin augue iaculis. Suspendisse id efficitur nisi, eu congue arcu. Morbi cursus est odio, eu efficitur lacus tincidunt et. Phasellus sodales tortor et placerat eleifend. Nam eu mauris nibh. Aenean placerat sagittis dapibus. Pellentesque luctus sem at gravida bibendum. In vitae mauris sollicitudin, facilisis lorem ut, rhoncus elit. Duis interdum blandit tincidunt. Quisque laoreet convallis hendrerit.</h4></p>
                 </div>
                 <div>
-                    <div id="experienceTitle"><h1>Experience</h1></div>
+                    <div id="experienceTitle"><h1><i class="fas fa-chevron-down"></i>Education</h1></div>
                     <p><h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue convallis aliquet. Donec vulputate dui a risus semper, et sollicitudin augue iaculis. Suspendisse id efficitur nisi, eu congue arcu. Morbi cursus est odio, eu efficitur lacus tincidunt et. Phasellus sodales tortor et placerat eleifend. Nam eu mauris nibh. Aenean placerat sagittis dapibus. Pellentesque luctus sem at gravida bibendum. In vitae mauris sollicitudin, facilisis lorem ut, rhoncus elit. Duis interdum blandit tincidunt. Quisque laoreet convallis hendrerit.</h4></p>
                 </div>
             </div>
 
             <!-- Skills Box -->
             <div id="skills">
-                <div id="skillsTitle">
-                    <h1>Programming Skills</h1>
+                <div class="skillsTitle">
+                    <h1><i class="fas fa-chevron-right"></i>Programming Skills</h1>
                 </div>
-                <p><h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue convallis aliquet. Donec vulputate dui a risus semper, et sollicitudin augue iaculis. Suspendisse id efficitur nisi, eu congue arcu. .</h4></p>
 
-                <div id="skillsTitle">
-                    <h1>Graphic Skills</h1>
+                <div><h3 class="skillNames">Programming Skill 1</h3></div>
+                <div class="w3-border">
+                    <div class="w3-blue progressBar" style="height:24px;width:90%">90%</div>
                 </div>
-                <p><h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue convallis aliquet. Donec vulputate dui a risus semper, et sollicitudin augue iaculis. Suspendisse id efficitur nisi, eu congue arcu. </h4></p>
 
-                <div id="skillsTitle">
-                    <h1>Language Skills</h1>
+                <div><h3 class="skillNames">Programming Skill 2</h3></div>
+                <div class="w3-border">
+                    <div class="w3-red progressBar" style="height:24px;width:80%">80%</div>
                 </div>
-                <p><h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed congue convallis aliquet. Donec vulputate dui a risus semper, et sollicitudin augue iaculis. Suspendisse id efficitur nisi, eu congue arcu. </h4></p>
+
+                <div><h3 class="skillNames">Programming Skill 3</h3></div>
+                <div class="w3-border">
+                    <div class="w3-green progressBar" style="height:24px;width:75%">75%</div>
+                </div>
+
+
+                <div class="skillsTitle">
+                    <h1><i class="fas fa-chevron-right"></i>Graphic Skills</h1>
+                </div>
+
+                <div><h3 class="skillNames"><i class="fas fa-square" style="color:red"></i> Graphics Skill 1</h3></div>
+
+                <div><h3 class="skillNames"><i class="fas fa-square" style="color:blue"></i> Graphics Skill 2</h3></div>
+
+                <div><h3 class="skillNames"><i class="fas fa-square" style="color:green"></i> Graphics Skill 3</h3></div>
+
+                <div class="skillsTitle">
+                    <h1><i class="fas fa-chevron-right"></i>Language Skills</h1>
+                </div>
+
+                <div>
+                    <span>
+                        <h3 class="skillNames">Language 1</h3>
+                        <i style="color:red" class="fas fa-circle"></i>
+                        <i style="color:red" class="fas fa-circle"></i>
+                        <i style="color:red" class="fas fa-circle"></i>
+                        <i style="color:red" class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i>
+                    </span>
+                </div>
+
+                <div>
+                    <span>
+                        <h3 class="skillNames">Language 2</h3>
+                        <i style="color:blue" class="fas fa-circle"></i>
+                        <i style="color:blue" class="fas fa-circle"></i>
+                        <i style="color:blue" class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i>
+                    </span>
+                </div>
+
+                <div>
+                    <span>
+                        <h3 class="skillNames">Language 3</h3>
+                        <i style="color:green" class="fas fa-circle"></i>
+                        <i style="color:green" class="fas fa-circle"></i>
+                        <i style="color:green" class="fas fa-circle"></i>
+                        <i style="color:green" class="fas fa-circle"></i>
+                        <i class="fas fa-circle"></i>
+                    </span>
+                </div>
+
             </div>
         </div>
     </div>
